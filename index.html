@@ -4,82 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Left navbar</title>
-    <!-- <link rel="stylesheet" href="index.css"> -->
     <script src="https://kit.fontawesome.com/c1d344829b.js" crossorigin="anonymous"></script>
     <style>
-body{
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: #e4e6f1;
-    font-family: 'PT Sans',sans-serif;
-}
-.nav-bar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f79fdb;
-    width: 300px;
-    height: 100vh; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: linear-gradient(-45deg,rgb(243, 153, 168), rgb(83, 83, 246));  
-}
-::-webkit-scrollbar{
-    width: 3px;
-}
-::-webkit-scrollbar-thumb{
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-.logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 30px;
-}
-.logo-size{
-    width: 50%;
-    align-items: center;
-    border-radius: 40%;
-}
-.logo h2{
-    align-items: center;
-    color: white;
-}
-.nav{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    gap: 0.9rem;
-    align-items: center;
-    font-size: 25px;
-    margin-top: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow: auto;
-}
-.nav a{
-    text-decoration-line: none;
-    color: white;
-}
-.nav i{
-    color: white;
-}
-.nav a:hover{
-    color: rgb(253, 213, 213);
-}
-.nav div:hover{
-    transform: scaleX(1.02) scale(1.02);
-}
-.home{
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-}
+  body{
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: #e4e6f1;
+      font-family: 'PT Sans',sans-serif;
+  }
+  .nav-bar{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f79fdb;
+      width: 300px;
+      height: 100vh; 
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: linear-gradient(-45deg,rgb(243, 153, 168), rgb(83, 83, 246));  
+  }
+  ::-webkit-scrollbar{
+      width: 4px;
+  }
+  ::-webkit-scrollbar-thumb{
+      background-color: #ffffff;
+      border-radius: 10px;
+  }
+  .logo{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 30px;
+  }
+  .logo-size{
+      width: 50%;
+      align-items: center;
+      border-radius: 40%;
+  }
+  .logo h2{
+      align-items: center;
+      color: white;
+  }
+  .nav{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      gap: 0.9rem;
+      align-items: center;
+      font-size: 25px;
+      margin-top: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      overflow: auto;
+  }
+  .nav a{
+      text-decoration-line: none;
+      color: white;
+  }
+  .nav i{
+      color: white;
+  }
+  .nav a:hover{
+      color: rgb(253, 213, 213);
+  }
+  .nav div:hover{
+      transform: scaleX(1.02) scale(1.02);
+  }
+  .home{
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      gap: 15px;
+      align-items: center;
+  }
     </style>
 </head>
 <body>
@@ -89,99 +90,121 @@ body{
         <h2>Ramsons Stainless</h2>
       </div>
       <div class="nav">
+
         <div class="party home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="party" class="home">PARTY LIST</a>
           <i class="fa-solid fa-arrow-right"></i>
         </div>
+
         <div class="summary home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="summary" class="home">SUMMARY</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="inward home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="inward" class="home">INWARD</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="planning home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="planning" class="home">PLANNING</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="slitting home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="slitting" class="home">SLITTING</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="stock home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="stoc" class="home">STOCK</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="sales-team home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="sales-team" class="home">SALES TEAM</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="pipe home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="#" class="home">PIPE</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="pipe-verify home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="#" class="home">PIPE VERIFY</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="dispath home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="dispath" class="home">DISPATCH</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="data-fms home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="data-fms" class="home">DATA FMS</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="sales home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="sales" class="home">SALES</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="store home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="store" class="home">STORE MGT.</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="approavl home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="approavl" class="home">APPROVAL</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="history home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="history" class="home">HISTORY</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="job-work home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="job-work" class="home">JOB WORK STOCK</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="hrms home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="hrms" class="home">HRMS</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="challan home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="challan" class="home">CHALLAN</a>
           <i class="fa-solid fa-arrow-right"></i>
-
         </div>
+
         <div class="accounts home">
+          <i class="fa-solid fa-note-sticky"></i>
           <a href="accounts" class="home">ACCOUNTS</a>
           <i class="fa-solid fa-arrow-right"></i>
         </div>
+
       </div>
     </div>
 </body>
